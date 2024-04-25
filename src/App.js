@@ -1,16 +1,21 @@
-import "./stylesheets/base.css"
-import Navbar from "./base/Navbar"
-import Home from "./Home"
+import Supplier from "./pages/Supplier/Supplier"
+import ItemGroups from "./pages/ItemGroups/ItemGroups"
+import Header from "./components/base/Header"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 function App() {
 
   return (
-    <div className="App">
-      <Navbar/>
-      <div className="content">
-        <Home/>
+
+    <Router>
+      <div className="App">
+        <Header/>
+        <Routes>
+          <Route path="/item-groups" element={<ItemGroups/>} />
+          <Route path="/" element={<Supplier/>} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 
