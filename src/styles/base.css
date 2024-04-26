@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 1660px;
+  position: relative;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #D9D9D9;
+  padding: 10px 24px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #A7A6A6;
+}
+
+button:active {
+  background-color: #969696;
+}
+
+.red-btn {
+  background-color: #A84D4D;
+  color: #FFFFFF;
+  transition: all 0.2s ease;
+}
+
+.red-btn:hover {
+  background-color: #973737;
+}
+
+.red-btn:active {
+  background-color: #802626;
+}
+
+@media (max-width: 1660px) {
+  width: 100%;
+  padding: 0 40px;
+}
