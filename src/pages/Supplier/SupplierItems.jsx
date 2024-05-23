@@ -44,7 +44,10 @@ const SupplierItems = () => {
           <button class="red-btn">Маркетплейсы</button>
         </div>
       </div>
-      <ItemsList items={items}/>
+      {items.length !== 0
+        ? <ItemsList items={items}/>
+        : <span class="text-lg">Посты не найдены</span>
+      }
     </div>
   );
 }
