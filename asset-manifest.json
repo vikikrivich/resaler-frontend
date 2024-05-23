@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resaler-frontend/static/css/main.d6ead13b.css",
+    "main.js": "/resaler-frontend/static/js/main.596a67e3.js",
+    "index.html": "/resaler-frontend/index.html",
+    "main.d6ead13b.css.map": "/resaler-frontend/static/css/main.d6ead13b.css.map",
+    "main.596a67e3.js.map": "/resaler-frontend/static/js/main.596a67e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6ead13b.css",
+    "static/js/main.596a67e3.js"
+  ]
+}
