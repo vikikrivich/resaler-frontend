@@ -13,8 +13,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/item-groups" element={<ItemGroups/>} />
-        <Route path="/" element={<SupplierItems/>} />
-        <Route path="*" element={<Error404/>} />
+        <Route path="*" element={<SupplierItems/>} />
+        // <Route path="*" element={<Error404/>} />
       </Routes>
     </Router>
   );
