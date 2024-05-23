@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/resaler-frontend/static/css/main.d6ead13b.css",
-    "main.js": "/resaler-frontend/static/js/main.4505d0ce.js",
+    "main.js": "/resaler-frontend/static/js/main.79958b08.js",
     "index.html": "/resaler-frontend/index.html",
     "main.d6ead13b.css.map": "/resaler-frontend/static/css/main.d6ead13b.css.map",
-    "main.4505d0ce.js.map": "/resaler-frontend/static/js/main.4505d0ce.js.map"
+    "main.79958b08.js.map": "/resaler-frontend/static/js/main.79958b08.js.map"
   },
   "entrypoints": [
     "static/css/main.d6ead13b.css",
-    "static/js/main.4505d0ce.js"
+    "static/js/main.79958b08.js"
   ]
 }
